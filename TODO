@@ -1,0 +1,27 @@
+[ ]Menus para compra de itens
+[ ]Implementar o framerate independente
+[ ]Resolver o bug dos tanques mansos (!?!)
+[x]Resolver o bug na correia dos tanques inimigos (nao ta rodando)
+[x]Resolver o problema dos tanques grudados (resolvido?)
+[ ]Suporte a varias fases
+[x]Fazer o personagem morrer.
+[x]Concertar os bugs nos sprites dos tanques
+[x]Retirar o bloco de nova_unidade do tanque.h
+[x]Fazer o hud dos inimigos funcionar
+[x]Resolver o bug do inimigo não atirar
+[x]Resolver o bug do tiro duplo
+[x]Explosão complexa
+[x]Explosão simples
+[ ]Internacionalização
+[x]Relevos indestrutíveis
+[x]Balas que somem misteriosamente 
+[x]Resolver o Bug do fantasma.
+[x]Resolver o Bug do tiro segmentation fault.
+
+
+Diario:
+
+Eu tive problemas muito estranhos ao usar malloc no lugar de calloc.
+Eu pensava que os problemas eram porque eu não estava liberando a memório no fim
+do programa, deixando isso para o SO. De toda forma colocando calloc no lugar 
+de malloc tudo se resolveu. o_o
